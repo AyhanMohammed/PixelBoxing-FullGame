@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Player.js"></script>
+    <!--Add your Firsebase Config here below. -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      const firebaseConfig = {
+  apiKey: "AIzaSyAHY6IcGSNFEqCYiPxeJ_3nzscEYKELswo",
+  authDomain: "pixel-boxing.firebaseapp.com",
+  databaseURL: "https://pixel-boxing-default-rtdb.firebaseio.com",
+  projectId: "pixel-boxing",
+  storageBucket: "pixel-boxing.appspot.com",
+  messagingSenderId: "417489363527",
+  appId: "1:417489363527:web:7c0d7a8a18392e6bc14762"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
